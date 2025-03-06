@@ -9,6 +9,8 @@ go build -o gitproxy
 2. Configure Git to use your proxy:
 ```bash
 git config --global http.proxy http://localhost:8080
+# OR at the repo level (replace https://github.com with http://localhost:8080)
+git remote set-url origin http://localhost:8080/mathieubellon/tsripe.git
 # OR for SSH
 # Use a tool like socat to redirect SSH traffic through your proxy
 ```
