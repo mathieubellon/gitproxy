@@ -1,13 +1,10 @@
 ## How to Use
-
+https://github.com/finos/git-proxy
+https://git-proxy.finos.org/docs/installation
 1. Compile and run the proxy:
+
 ```
-go build -o gitproxy
-./gitproxy
-```
-or
-```
-// JS official project
+npm install @finos/git-proxy
 git-proxy -c proxy.config.json
 ```
 
