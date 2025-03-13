@@ -5,11 +5,6 @@
 go build -o gitproxy
 ./gitproxy
 ```
-or
-```
-// JS official project
-git-proxy -c proxy.config.json
-```
 
 2. Configure Git to use your proxy:
 ```bash
